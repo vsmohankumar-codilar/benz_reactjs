@@ -1,0 +1,49 @@
+.imagecontainer{
+    text-align:center;
+    
+  }
+  .under-imagecontainer{
+    display:inline-block;
+    width: 18rem;
+    height: 9rem;
+    /* line-height: 3rem; */
+    margin: 1rem;
+    
+
+  }
+  .mercedesme{
+    display:inline-block;
+    width:18rem;
+    
+    
+  }
+  .mercedesme:hover{
+    border-bottom: aqua solid 3px;
+  }
+  @media screen and (max-width: 600px){
+    .imagecontainer{
+      text-align: justify;
+      margin: 0 auto;
+      display: flex;
+      /* max-width: calc(100% - 60px); */
+      max-width: 100%;
+      
+    }
+    .under-imagecontainer{
+      display:inline-block;
+      max-width: 100%;
+      width: 18rem;
+      height: 9rem;
+      line-height: 3rem; 
+       margin: 1rem;
+      
+  
+    }
+    .mercedesme {
+      max-width: 100%;
+      width:15rem;
+      display:flex;
+      /* vertical-align: middle; */
+      
+    } 
+  } 

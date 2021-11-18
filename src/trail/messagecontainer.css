@@ -1,0 +1,80 @@
+.heading{
+    color: white;
+    padding-top: 13%;
+    padding-left: 29%;
+    padding-right: 29%;
+    padding-bottom: 1.7%;
+    text-align: center;
+    font-size: 180%;
+    font-style:italic;
+    line-height: 150%;
+    font-weight: 200;
+  }
+
+  .paragraph{
+    color: white;
+    padding-left: 29%;
+    padding-right: 29%;
+    padding-bottom: 1.7%;
+    text-align: center;
+    font-size: 97%;
+    line-height: 150%;
+    font-weight: 200;
+  }
+
+  .paragraph1{
+    color: white;
+    padding-left: 29%;
+    padding-right: 29%;
+    text-align: center;
+    font-size: 97%;
+    line-height: 150%;
+    font-weight: 200;
+  }
+  .paragraph4{
+    color: white;
+    padding-left: 29%;
+    padding-right: 29%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 97%;
+    line-height: 150%;
+    font-weight: 200;
+  }
+
+  .bring{
+    color: white;
+    background-color: darkturquoise;
+    margin-left: 40%;
+    margin-right: 29%;
+    height: 40px;
+    width: 230px;
+    margin-bottom: 9%;
+    font-size: 90%;
+  }
+  .bring:hover{
+    background-color:lightseagreen;
+}
+.paragraph3{
+  color:aqua;
+  text-decoration: none;
+}
+.paragraph3:hover{
+  color: aqua;
+}
+@media screen and (max-width: 600px){
+  .heading{
+    color: white;
+    padding-top: 13%;
+    padding-left: 0%;
+    padding-right: 1%;
+    padding-bottom: 1.7%;
+   
+    font-size: 90%;
+    font-style:italic;
+    line-height: 150%;
+    font-weight: 200;
+  }
+
+}
+

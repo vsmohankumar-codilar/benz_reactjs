@@ -1,0 +1,65 @@
+form.searchbox input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid white;
+    float: left;
+    width: 88%;
+    background: white;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+  }
+  
+  form.searchbox button {
+    float: left;
+    width: 3%;
+    height: 42px;
+    padding: 10px;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: 1px solid white;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+  }
+  
+  form.searchbox button:hover {
+     background: white; 
+  }
+  
+  form.saerchbox::after {
+    clear: both;
+    display: table;
+  }
+  @media screen and (max-width: 600px){
+    form.searchbox input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid white;
+      float: left;
+      width: 70%;
+      height: 30px;
+      background: white;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-bottom: 2.5%;
+    }
+     
+  form.searchbox button {
+    float: left;
+    width: 3%;
+    height: 30px;
+    padding: 10px;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: 1px solid white;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+  }
+  
+  }

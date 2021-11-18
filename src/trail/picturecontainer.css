@@ -1,0 +1,88 @@
+.car1{
+  height:480px;
+   width:65%;
+}
+.car2{
+    height: 240px;
+    width: 34.6%;
+    float:right;
+  }
+  .car3{
+    height: 240px;
+    width: 34.6%;
+    float:right;
+    margin-top: -245px;
+  
+  }
+  .car4{
+    height: 240px;
+    width: 33%;
+    /* display: grid; */
+  }
+  .car13{
+    height: 240px;
+    width: 33%;
+    margin-bottom: 3.1%;
+  }
+  .car14{
+    height: 240px;
+    width: 33%;
+    margin-bottom: 3.1%;
+  }
+  .butt{
+    margin-left: 47%;
+    height: 35px;
+    width: 11%;
+    background-color: gray;
+    color:lightgrey;
+    font-size: 100%;
+    margin-bottom: 7.5%;
+  }
+  .butt:hover{
+    color: white;
+  }
+  
+  @media screen and (max-width: 600px){
+    .picturecontainer{
+      display: inline-block;
+     
+    }
+    .picturecontainer a{
+      display: inline-block;
+      height: 35%;
+      width:35%;
+    object-fit: cover;
+    
+    width:100%;
+    }
+    .car1{
+      height: 35%;
+      width:100%;
+    }
+    .car3 {
+      height: 35%;
+      width:100%;
+      float: left;
+    }
+    .butt{
+      margin-left: 47%;
+      
+    }
+    .car2{
+      height: 35%;
+      width:100%;
+      float: left;
+    }
+    .car13{
+      height: 35%;
+      width:100%;
+    }
+    .car4{
+      height: 35%;
+      width:100%;
+    }
+    .car14{
+      height: 35%;
+      width: 100%;
+    }
+  }

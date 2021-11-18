@@ -1,0 +1,101 @@
+.flex{
+    display: flex;
+  }
+  .list1{
+    color: white;
+    padding-left: 4%;
+    margin-right: 9%;
+  }
+  .line1{
+    width: 172.5%;
+    margin-bottom: 20%;
+    margin-top: 20%;
+  }
+  hr.line1{
+    border-top: 1px  lightgrey;
+  }
+  .list1 a{
+    color: grey;
+    text-decoration: none;
+  }
+  .list1 a:hover{
+    color: aqua;
+  }
+  
+  .list2{
+    color: white;
+    margin-right: 6.25%;
+  }
+  .line2{
+    width: 141%;
+    margin-bottom: 16.5%;
+    margin-top: 16.5%;
+  }
+  hr.line2{
+    border-top: 1px  lightgrey;
+  }
+  .list2 a{
+    color: grey;
+    text-decoration: none;
+  }
+  .list2 a:hover{
+    color: aqua;
+  }
+  .list3{
+    color: white;
+    margin-right: 7%;
+  }
+  .line3{
+    width: 136.5%;
+    margin-bottom: 12.5%;
+    margin-top: 12.5%;
+  }
+  hr.line3{
+    border-top: 1px  lightgrey;
+  }
+  .list3 a{
+    color: grey;
+    text-decoration: none;
+  }
+  .list3 a:hover{
+    color: aqua;
+  }
+  .list4{
+    color: white;
+  }
+  .line4{
+    width: 135.5%;
+    margin-bottom: 16%;
+    margin-top: 16%;
+  }
+  hr.line4{
+    border-top: 1px  lightgrey;
+  }
+  .list4 a{
+    color: grey;
+    text-decoration: none;
+  }
+  .list4 a:hover{
+    color: aqua;
+  }
+  .stay{
+    color: white;
+    padding-left: 4%;
+    font-size: 200%;
+    margin-bottom: 3%;
+  }
+  
+  .line5{
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    
+  }
+  hr.line5{
+    border-top: 1px  lightgrey;
+  }
+  @media screen and (max-width: 600px){
+    .morelist{
+      display: none;
+    }
+  }

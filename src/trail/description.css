@@ -1,0 +1,42 @@
+.threesentence{
+    color: white;
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 3.1%;
+    font-weight:100;
+  }
+  
+  .threesen{
+   
+    padding-right: 4%;
+    margin-left: -22% ;
+    margin-right: 22%;
+  }
+  .new4{
+    background-color: black;
+    
+   
+    
+  }
+  .para1{
+    color: white;
+    padding-right: 4%;
+    padding-left: 2%;
+    font-size: 90%;
+    padding-bottom: 2%;
+  }
+  @media screen and (max-width: 600px){
+    .para1{
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-left: 8%;
+       /* text-align: center; */
+      display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    }
+      
+  }
